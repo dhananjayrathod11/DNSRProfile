@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Dhananjay Rathod's Portfolio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Dhananjay </a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">Home</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">About me</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">Skills</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">Curriculum</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">Portfolio</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/Image 2.jpg" alt="">
+            </div>
+            <h1>Dhananjay R</h1>
+            <h2>Business Analyst</h2>
+            <div class="redes">
+                <a href="https://github.com/dhananjayrathod11"><i class="fa-solid fa-code"></i></a>
+                <a href="https://www.linkedin.com/in/dhananjaynrathod/"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://www.instagram.com/dhananjay_nsr/"><i class="fa-solid fa-hashtag"></i></a>
+            </div> 
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>About Me</h2>
+            <p><span>Hi, I'm Dhananjay Rathod.</span> a creative and dependable Business Analytics student with leadership qualities, Seeking a career in the field of Business and Management to hone my skills. I am a avid learner who is ready for challenges and works well in a team environment.</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Personal Information</h3>
+                    <ul>
+                        <li>
+                            <strong>Birth Date</strong>
+                            11-05-2001
+                        </li>
+                        <li>
+                            <strong>Contact no.</strong>
+                            8355956356
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            dhananjayrathod11@gmail.com
+                        </li>
+                        <li>
+                            <strong>Website</strong>
+                            www.example.com
+                        </li>
+                        <li>
+                            <strong>Location</strong>
+                            Mumbai,Maharashtra,India
+                        </li>
+                        <li>
+                            <strong>Post</strong>
+                            <span>FREELANCE</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Interests</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>GAMING</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSIC</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>TRAVEL</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-sharp fa-solid fa-masks-theater"></i>
+                            <span>THEATRE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-swimming"></i>
+                            <span>SWIMMING</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>READING</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-car"></i>
+                            <span>CAR BUFF</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-utensils"></i>
+                            <span>COOKING</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <form action="cv/Dhananjay+Rathod+CV.docx+(1).pdf">
+                <button>
+                    Download CV <i class="fa-solid fa-download"></i>
+                    <span class="overlay"></span>
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>R</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>55%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Python</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Tableau</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>MS Excel</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Comunication</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Time Management</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Task Delegation</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Leadership</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creativity</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>94%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educational History</h3>
+                    <div class="item izq">
+                        <h4>Class 12th</h4>
+                        <span class="casa">Gundecha Education Academy (ISC)</span>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>BBA (Business Analytics)</h4>
+                        <span class="casa">CHRIST (Deemed to be University), Pune Lavasa Campus</span>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experience</h3>
+                    <div class="item der">
+                        <h4>Business Analytics Intern</h4>
+                        <span class="casa">Yester & Young Pvt. Ltd.</span>
+                        <span class="fecha">June 2022-July 2022</span>
+                        <p> I was responsible for data analysis and visualization, utilizing my skills in acquiring data from primary and secondary sources and creating interactive dashboards using Tableau. I was able to identify and analyze industry and geographic trends, which had a direct impact on the business strategy. I also generated standard and custom reports to summarize business, financial, and economic data. Additionally, I conducted tender analysis and evaluation, which helped in evaluating the different offers and proposals we received for the redevelopment project.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PROJECTS</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/Paint Industry.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Industry Review Project</h3>
+                        <p>Study on the performance of Paint Industry</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/Wheat.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Research Paper</h3>
+                        <p>Why is the yield of wheat crop going down in the Indian subcontinent</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/Customer.jpg" alt="">
+                    <div class="overlay">
+                        <h3>DV Project</h3>
+                        <p>Customer And Revenue Analysis Of Customer Dataset on Tableau</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/Car Showroom.jpg" alt="">
+                    <div class="overlay">
+                        <h3>DBMS Project</h3>
+                        <p>Creation of a car showroom database with dummy data</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/Bakery.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Human Resource Analysis</h3>
+                        <p>Analyzed the Bakery HR dataset and found out where and why the absenteeism rate is high</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/Airline.jpg" alt="">
+                    <div class="overlay">
+                        <h3>FA Airlines</h3>
+                        <p>Conducted an aircraft comparative analysis using MS Excel and Tableau</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACT ME</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <input type="text" placeholder="Name">
+                    <input type="text" placeholder="Contact no.">
+                    <input type="text" placeholder="Email Id">
+                    <input type="text" placeholder="Issue">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                    <form action="https://mail.google.com/mail/?view=cm&source=mailto&to=[dhananjayrathod11@gmail.com]">
+                        <button>
+                            Send Message <i class="fa-solid fa-paper-plane"></i>
+                            <span class="overlay"></span>
+                        </button>
+                    </form>
+                </div>
+                <!-- Mapa -->
+                <div class="col">
+                    <img src="img/Mumbai.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Mumbai, Maharashtra
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Contact No.: 8355956356
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: dhananjayrathod11@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://github.com/dhananjayrathod11"><i class="fa-solid fa-code"></i></a>
+            <a href="https://www.linkedin.com/in/dhananjaynrathod/"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://www.instagram.com/dhananjay_nsr/"><i class="fa-solid fa-hashtag"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
